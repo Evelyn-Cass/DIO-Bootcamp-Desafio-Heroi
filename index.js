@@ -3,10 +3,17 @@
 let nome = "Hyrrokkin"
 let xp = 2524
 let nivel
+let i
 
 console.log("Nome do Herói: "+nome)
 console.log("Experiência atual: "+xp)
-console.log("Realizando a verificação . . .")
+
+
+for(i = 0; i<=5; i++){
+    console.log("Realizando a verificação "+ i +"/5")
+}
+
+console.log("Carregamento Completo!")
 
 switch(true)
 {
